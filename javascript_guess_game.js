@@ -39,7 +39,7 @@ function getInputValue(){
         var rightguess = document.getElementById("response")
         rightguess.innerHTML = "You got it"
         rightguess.setAttribute('class', 'youGuessed')
-        document.getElementById("newGameResult").innerHTML="<img src=/Users/George/Desktop/win.gif>"
+        document.getElementById("newGameResult").innerHTML="<img src=/Users/George/Desktop/PracticeProjects/GuessingGame_v1/win.gif>"
     }
     else if (inputVal > the_number){
         console.log("Too high")
